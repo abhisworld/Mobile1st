@@ -1,0 +1,48 @@
+@media screen and (max-width: 700px){
+
+    nav{
+        
+        display:inline;
+        align-items: center;
+ 
+   }
+   .A1{ display: flex;color: rgb(177, 177, 177);
+    justify-content: center;
+    padding: 10px; animation: 4s anim infinite;
+}
+
+@keyframes anim {
+    from{
+        color:  rgb(177, 177, 177);}
+     to{
+            color: rgb(41, 41, 41);
+        }
+    
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+nav ul li a{
+    background: linear-gradient(to right, #1d1d1d,#000000);
+    padding:  .5vh 6vw;
+   
+}
+nav ul li a:hover{
+    color: darkblue;
+}
+   .B{
+    height: 85px;
+    background:  linear-gradient(to right, #1d1d1d,#000000);
+}
+.c h1{padding: 15vh; font-size: 5vw ;
+}
+    
+.c p{padding: 20px 10vw 50px 10vw;
+    font-size: 3vw ;
+    display: flex;justify-content: center;
+}
+.c a{
+    display: flex;justify-content: center;
+}
+}

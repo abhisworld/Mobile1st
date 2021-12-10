@@ -1,0 +1,71 @@
+*{
+    margin: 0;padding: 0; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: black;color: white;
+}
+nav{
+    background: transparent;
+    display:flex;
+    justify-content: space-between; 
+}
+.A1{ padding:  0 2vw;
+    background: transparent;
+    color: rgb(0, 192, 218);
+  animation: 2s anim infinite;
+}
+
+@keyframes anim {
+    from{
+        color: rgb(0, 192, 218);}
+     to{
+            color: rgb(255, 255, 255);
+        }
+    
+}
+
+nav ul{
+    background: transparent;
+}
+nav ul li {background: transparent;
+    display: inline;
+    list-style: none;
+    text-decoration: none;
+}
+nav ul li a{background: transparent;
+    text-decoration: none;
+    padding:  1vh 2vw;
+}
+.B{
+    height: 35px;
+    background-color: rgb(22, 22, 22);
+}
+.c{
+    height: 50vh;
+}
+.c h1{padding: 10vh;
+    display: flex;justify-content: center;
+}
+.c p{padding: 20px 5vw 50px 5vw;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;justify-content: center;
+}
+.c a{text-decoration: none;
+    display: flex;justify-content: center;
+}
+ button{
+   color: blue;
+   font-weight: bolder;
+   padding: 5px 10px;
+   border-radius: 15px;
+   border-color: darkblue;
+ background-color: transparent;
+ animation: 2s animm infinite;
+}
+@keyframes animm {
+    from{
+        color: blue;}
+     to{
+            color: rgb(0, 225, 255);
+            border-color: rgb(0, 192, 218);
+        }
+    
+}
